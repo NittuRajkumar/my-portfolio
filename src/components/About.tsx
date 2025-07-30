@@ -77,11 +77,11 @@ const About = () => {
             <div className="relative mx-auto lg:mx-0 w-80 h-80">
               <div className="absolute inset-0 bg-gradient-primary rounded-full blur-lg opacity-30 pulse-glow"></div>
               <div className="relative glass-card rounded-full p-2 overflow-hidden">
-                <img
+{/*                 <img
                   src={profileImg}
                   alt="Alex Johnson"
                   className="w-full h-full object-cover rounded-full"
-                />
+                /> */}
               </div>
             </div>
           </div>
