@@ -106,7 +106,7 @@ const About = () => {
               </p>
 
               {/* Stats Counter */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+{/*               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-2">
                     {counters.experience}+
@@ -135,7 +135,7 @@ const About = () => {
                   <div className="text-sm text-muted-foreground">Git Commits</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
