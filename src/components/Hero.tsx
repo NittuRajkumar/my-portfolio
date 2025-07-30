@@ -61,7 +61,7 @@ const Hero = () => {
       <div className="relative z-20 text-center max-w-4xl mx-auto px-6">
         <div className="glass-card p-12 rounded-2xl">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="bg-gradient-primary bg-clip-text text-transparent">RAJKUMAR</span>
+            <span className="bg-gradient-primary bg-clip-text text-transparent">RAJKUMAR NITTU</span>
           </h1>
           
           <h2 className="text-2xl md:text-3xl font-semibold mb-8 h-12">
