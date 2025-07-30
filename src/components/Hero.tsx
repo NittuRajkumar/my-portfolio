@@ -72,7 +72,8 @@ const Hero = () => {
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Crafting digital experiences with cutting-edge technologies. 
+            I’m constantly exploring new technologies to stay ahead in the fast-evolving tech world, aiming to create
+            next-generation web experiences that push boundaries. 
             Passionate about creating scalable, efficient, and beautiful web applications 
             that make a difference.
           </p>
