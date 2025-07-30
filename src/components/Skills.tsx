@@ -59,7 +59,7 @@ const Skills = () => {
         <div className={`reveal ${isVisible ? 'revealed' : ''}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Skills & Expertise
+              My Skills 
             </span>
           </h2>
         </div>
@@ -114,14 +114,13 @@ const Skills = () => {
         {/* Additional Skills Grid */}
         <div className={`reveal ${isVisible ? 'revealed' : ''} mt-16`} style={{ transitionDelay: '0.6s' }}>
           <h3 className="text-2xl font-bold text-center mb-8 text-primary">
-            Technologies I Work With
+            Technologies, I Work With...
           </h3>
           
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "JavaScript", "HTML5", "CSS3", "Sass", "Tailwind CSS", "Next.js", 
-              "Vue.js", "Express.js", "FastAPI", "Django", "Git", "GitHub Actions",
-              "Jest", "Cypress", "Webpack", "Vite", "Firebase", "Supabase"
+              "HTML5", "CSS3", "Express.js", "Javascript", "Python", "Git", "GitHub",
+             "React Js", "Mongo Db", "Node Js", "Sql", "Bootstarap"
             ].map((tech, index) => (
               <div
                 key={tech}
