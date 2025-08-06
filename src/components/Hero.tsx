@@ -7,6 +7,11 @@ const Hero = () => {
   const [displayText, setDisplayText] = useState("");
   const fullText = "Full-Stack Web Developer";
   useEffect(() => {
+
+    document.title = "Home - My App";
+
+  }, []);
+  useEffect(() => {
     let index = 0;
     const timer = setInterval(() => {
       if (index < fullText.length) {
