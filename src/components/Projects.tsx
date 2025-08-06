@@ -8,58 +8,58 @@ const Projects = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const projects = [{
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
+    title: "Collection Of Mini Games",
+    description: "A Enjoy four interactive game cards: There are as like a Emoji Game, Memory Matrix, Rock Paper Scissors, and Card-Flip Memory Game.... Its a offline games for everyone to its will be knowing the upgrading up skill on mini games Built with a  HTML, CSS, React.js, and  doing JavaScript for a modern, responsive design Mini-games are lightweight and  playing with an ideal for improving focus, reflexes, and problem-solving skills and  while having fun and enteretainment..All the best...!!!! ",
     image: project1,
-    technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Redis"],
-    liveDemo: "https://demo.example.com",
+    technologies: ["HTML", "CSS", "REACT JS", "JAVA SCRIPT"],
+    liveDemo: "https://rajkumargames.ccbp.tech/",
     sourceCode: "https://github.com/example/ecommerce",
     featured: true
   }, {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+    title: " Delicious Food Munch",
+    description: "A Delicious food has the power to bring joy and comfort with every bite. The rich aroma, vibrant colors, and perfectly balanced flavors awaken the senses and create unforgettable experiences.Tasty with a beautiful delicious Food with ur familiesand Friends  From savory dishes bursting with spices  Fresh ingredients and skillful cooking elevate ordinary meals into culinary masterpieces. Sharing delicious food with loved ones makes every moment even more special....!!!!",
     image: project2,
-    technologies: ["Vue.js", "Express.js", "MongoDB", "Socket.io", "AWS"],
-    liveDemo: "https://tasks.example.com",
+    technologies: ["HTML", "CSS", "BOOTSTRAP","JAVA SCRIPT"],
+    liveDemo: "https://nrajkumarfm.ccbp.tech/",
     sourceCode: "https://github.com/example/taskmanager",
     featured: false
   }, {
     id: 3,
-    title: "Analytics Dashboard",
-    description: "A comprehensive analytics dashboard with data visualization, real-time metrics, and customizable reports for business intelligence.",
+    title: "Nxt Trendz Online Shoping",
+    description: "A Nxttrendz is a modern online shopping platform offering a wide range of fashion, electronics, and lifestyle products. 🛍️ It provides users with a seamless shopping experience, featuring easy navigation and quick checkout.exclusive deals and trendy collections, Nxttrendz keeps shoppers updated with the latest styles. enhancing customer satisfaction.Shop anytime, anywhere with Nxttrendz and enjoy with a  free online retail experience.....!! Username: rahul,  Password: rahul@2021",
     image: project3,
-    technologies: ["React", "Python", "FastAPI", "PostgreSQL", "D3.js"],
-    liveDemo: "https://analytics.example.com",
+    technologies: ["REACT JS", "PYTHON", "API", "SQL", "HTML","CSS"],
+    liveDemo: "https://nxttrendzmarket.ccbp.tech/login",
     sourceCode: "https://github.com/example/analytics",
     featured: true
-  }, {
-    id: 4,
-    title: "Social Media API",
-    description: "RESTful API for a social media platform with user management, post creation, real-time messaging, and content moderation.",
-    image: project1,
-    technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "CloudFlare"],
-    liveDemo: "https://api.example.com",
-    sourceCode: "https://github.com/example/social-api",
-    featured: false
-  }, {
-    id: 5,
-    title: "Cryptocurrency Tracker",
-    description: "Real-time cryptocurrency tracking application with portfolio management, price alerts, and market analysis tools.",
-    image: project2,
-    technologies: ["React", "TypeScript", "GraphQL", "Redis", "WebSocket"],
-    liveDemo: "https://crypto.example.com",
-    sourceCode: "https://github.com/example/crypto-tracker",
-    featured: false
-  }, {
-    id: 6,
-    title: "Learning Management System",
-    description: "Educational platform with course management, video streaming, progress tracking, and interactive quizzes.",
-    image: project3,
-    technologies: ["Next.js", "Prisma", "PostgreSQL", "AWS S3", "Stripe"],
-    liveDemo: "https://learn.example.com",
-    sourceCode: "https://github.com/example/lms",
-    featured: true
+  // }, {
+  //   id: 4,
+  //   title: "Social Media API",
+  //   description: "RESTful API for a social media platform with user management, post creation, real-time messaging, and content moderation.",
+  //   image: project1,
+  //   technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "CloudFlare"],
+  //   liveDemo: "https://api.example.com",
+  //   sourceCode: "https://github.com/example/social-api",
+  //   featured: false
+  // }, {
+  //   id: 5,
+  //   title: "Cryptocurrency Tracker",
+  //   description: "Real-time cryptocurrency tracking application with portfolio management, price alerts, and market analysis tools.",
+  //   image: project2,
+  //   technologies: ["React", "TypeScript", "GraphQL", "Redis", "WebSocket"],
+  //   liveDemo: "https://crypto.example.com",
+  //   sourceCode: "https://github.com/example/crypto-tracker",
+  //   featured: false
+  // }, {
+  //   id: 6,
+  //   title: "Learning Management System",
+  //   description: "Educational platform with course management, video streaming, progress tracking, and interactive quizzes.",
+  //   image: project3,
+  //   technologies: ["Next.js", "Prisma", "PostgreSQL", "AWS S3", "Stripe"],
+  //   liveDemo: "https://learn.example.com",
+  //   sourceCode: "https://github.com/example/lms",
+  //   featured: true
   }];
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
@@ -147,7 +147,7 @@ const Projects = () => {
         <div className={`reveal ${isVisible ? 'revealed' : ''} text-center mt-12`} style={{
         transitionDelay: '0.8s'
       }}>
-          <Button size="lg" variant="outline" className="border-primary/30 text-primary hover:bg-primary/10 hover:shadow-glow-primary transition-all duration-300" onClick={() => window.open("https://github.com", '_blank')}>
+          <Button size="lg" variant="outline" className="border-primary/30 text-primary hover:bg-primary/10 hover:shadow-glow-primary transition-all duration-300" onClick={() => window.open("https://github.com/NittuRajkumar", '_blank')}>
             View All Projects on GitHub
           </Button>
         </div>

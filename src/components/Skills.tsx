@@ -5,16 +5,19 @@ const Skills = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
   const skills = [
-    { name: "React", level: 95, category: "Frontend", icon: "⚛️" },
-    { name: "TypeScript", level: 90, category: "Language", icon: "📘" },
-    { name: "Node.js", level: 88, category: "Backend", icon: "💚" },
-    { name: "Python", level: 85, category: "Language", icon: "🐍" },
-    { name: "PostgreSQL", level: 82, category: "Database", icon: "🐘" },
-    { name: "MongoDB", level: 80, category: "Database", icon: "🍃" },
-    { name: "Docker", level: 78, category: "DevOps", icon: "🐳" },
-    { name: "AWS", level: 75, category: "Cloud", icon: "☁️" },
-    { name: "GraphQL", level: 72, category: "API", icon: "📊" },
-    { name: "Redis", level: 70, category: "Database", icon: "🔴" },
+    { name: "Html", level: 95, category: "Frontend", icon: "📄" },
+    { name: "Css", level: 90, category: "Frontend", icon: "🎨" },
+    { name: "Javascript", level: 65, category: "Frontend", icon: "🟨" },
+    { name: "React", level: 70, category: "Frontend", icon: "⚛️" },
+
+     { name: "Python", level: 90, category: "Backend", icon: "🐍" },
+    { name: "Node.js", level: 80, category: "Backend", icon: "💚" },
+    { name: "GIT Command Line", level: 70, category: "Backend", icon: "🔧" },
+
+    
+    { name: "SQL", level: 75, category: "Database", icon: "🛢️" },
+    { name: "Mongo DB", level: 85, category: "Database", icon: "🍃" },
+    
   ];
 
   const categories = [...new Set(skills.map(skill => skill.category))];

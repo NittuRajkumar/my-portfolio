@@ -10,8 +10,8 @@ const Footer = () => {
     name: "Projects",
     href: "#projects"
   }, {
-    name: "Contact",
-    href: "#contact"
+    name: "Contact Us",
+    href: "#Contact us"
   }];
   const socialLinks = [{
     name: "GitHub",
@@ -41,10 +41,10 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-              Alex Johnson
+              RAJKUMAR NITTU
             </div>
             <p className="text-muted-foreground text-sm">Full-Stack Web 
-Developer crafting digital experiences</p>
+Developer, Building Web Applications </p>
           </div>
 
           {/* Quick Links */}
@@ -70,7 +70,7 @@ Developer crafting digital experiences</p>
         {/* Copyright */}
         <div className="text-center text-sm text-muted-foreground">
           <p>
-            © {currentYear} Alex Johnson. All rights reserved. Built with ❤️ using React & TypeScript.
+            © {currentYear} RAJKUMAR NITTU. All rights reserved. Built with ❤️ using React & JavaScript.
           </p>
         </div>
       </div>

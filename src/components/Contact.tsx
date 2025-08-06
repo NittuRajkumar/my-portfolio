@@ -18,13 +18,13 @@ const Contact = () => {
   const socialLinks = [
     {
       name: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/NittuRajkumar",
       icon: "🐙",
       color: "primary"
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://linkedin.com/in/rajkumar-nittu-7bb655309/",
       icon: "💼",
       color: "secondary"
     },
@@ -36,7 +36,7 @@ const Contact = () => {
     },
     {
       name: "Email",
-      url: "mailto:alex@example.com",
+      url: "nitturajkumar123@gmail.com",
       icon: "📧",
       color: "primary"
     }
@@ -147,7 +147,8 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" ref={sectionRef} className="py-20 bg-background relative overflow-hidden">
+    <section id="Contact us" ref={sectionRef} className="py-20 bg-background relative overflow-hidden">
+
       {/* Background Elements */}
       <div className="absolute inset-0 tech-grid opacity-20"></div>
       <div className="floating absolute top-20 left-10 w-4 h-4 bg-primary/20 rounded-full blur-sm"></div>
@@ -291,15 +292,15 @@ const Contact = () => {
               <div className="space-y-4 text-muted-foreground">
                 <div className="flex items-center gap-3">
                   <span className="text-primary">📍</span>
-                  <span>Based in San Francisco, CA</span>
+                  <span>Based On Learning Consistency.</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-primary">⏰</span>
-                  <span>Usually responds within 24 hours</span>
+                  <span>Usually gives time 24 hours..</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-primary">💬</span>
-                  <span>Open to freelance opportunities</span>
+                  <span>Looking For opportunities.!!!</span>
                 </div>
               </div>
             </div>

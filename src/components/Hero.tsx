@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
+//import { useToast } from "@/hooks/use-toast";
+import { title } from "process";
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Full-Stack Developer";
+  const fullText = "Full-Stack Web Developer";
   useEffect(() => {
     let index = 0;
     const timer = setInterval(() => {
@@ -26,10 +28,17 @@ const Hero = () => {
   };
   const downloadResume = () => {
     // In a real app, this would download an actual resume file
+
     const link = document.createElement('a');
-    link.href = '#';
-    link.download = 'resume.pdf';
+    link.href = 'file:///C:/Users/RAJKUMAR/OneDrive/Pictures/Desktop/My%20Cerificates/Rajkumar%20Nittu.Resume.pdf';
+    link.download = 'Resume.pdf';
     link.click();
+    
+    //  toast ({
+    //   title: "Resume Download",
+    //   description: "Resume download started!",
+    // });
+    
   };
   return <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
@@ -72,7 +81,7 @@ const Hero = () => {
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            I’m constantly exploring new technologies to stay ahead in the fast-evolving tech world, aiming to create
+            I’m constantly exploring new technologies to stay a head in the fast-evolving tech world, aiming to create
             next-generation web experiences that push boundaries. 
             Passionate about creating scalable, efficient, and beautiful web applications 
             that make a difference.

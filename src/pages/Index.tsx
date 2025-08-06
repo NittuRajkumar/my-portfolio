@@ -4,8 +4,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Blog from "@/components/Blog";
-import Contact from "@/components/Contact";
+import Contact  from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -48,7 +47,7 @@ const Index = () => {
 
     const ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) {
-      ogTitle.setAttribute('content', 'Alex Johnson - Full-Stack Developer Portfolio');
+      ogTitle.setAttribute('content', 'RAJKUMAR NITTU - Full-Stack Developer Portfolio');
     }
 
     const ogDescription = document.querySelector('meta[property="og:description"]');
@@ -65,7 +64,7 @@ const Index = () => {
         <About />
         <Skills />
         <Projects />
-        <Blog />
+        
         <Contact />
       </main>
       <Footer />
