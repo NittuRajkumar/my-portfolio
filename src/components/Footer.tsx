@@ -9,7 +9,11 @@ const Footer = () => {
   }, {
     name: "Projects",
     href: "#projects"
-  }, {
+  }, 
+  {
+    name: "Services",
+    href: "#Services"
+  },{
     name: "Contact Us",
     href: "#Contact us"
   }];

@@ -98,7 +98,7 @@ const About = () => {
           >
             <div className="glass-card p-6 rounded-2xl">
               <h3 className="text-2xl font-bold mb-6 text-primary">
-                Passionate Web Developer ✨ & Building Websites 🧠
+            Passionate Web Developer✨ & Building Websites🧠
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 ➤ I’m a self-taught full‑stack web developer with hands-on

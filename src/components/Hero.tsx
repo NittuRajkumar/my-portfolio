@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
-import { Helmet } from "react-helmet";
+
 
 import heroBg from "@/assets/hero-bg.jpg";
 //import { useToast } from "@/hooks/use-toast";
@@ -74,7 +74,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <Helmet>
+      
       <div className="relative z-20 text-center max-w-4xl mx-auto px-6">
         <div className="glass-card p-12 rounded-2xl">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -107,7 +107,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      </Helmet>
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
         <div className="animate-bounce">

@@ -166,6 +166,7 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Contact Form */}
+          {/* <form action="https://nitturajkumar123@email.com" method="POST" /> */}
           <div className={`reveal ${isVisible ? 'revealed' : ''}`} style={{ transitionDelay: '0.2s' }}>
             <div className="glass-card p-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-6 text-primary">Send me a message</h3>
@@ -312,3 +313,8 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
+
+
