@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from 'emailjs-com';  
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -23,11 +24,11 @@ const Contact = () => {
       color: "primary"
     },
     {
-      name: "LinkedIn",
-      url: "https://linkedin.com/in/rajkumar-nittu-7bb655309/",
-      icon: "💼",
-      color: "secondary"
-    },
+  name: "LinkedIn",
+  url: "https://www.linkedin.com/in/rajkumar-nittu-7bb655309/",
+  icon: "💼",
+  color: "secondary"
+},
     {
       name: "Twitter",
       url: "https://twitter.com",
@@ -119,8 +120,13 @@ const Contact = () => {
 
     // Simulate form submission
     try {
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
+      // await new Promise(resolve => setTimeout(resolve, 2000));
+       await emailjs.sendForm(  
+      'service_51wkydm',  
+      'template_sjzqqjm',  
+      e.target as HTMLFormElement,  
+      'qpV1QnwXMJw3Pv-BN'  
+       )
       toast({
         title: "Message Sent!",
         description: "Thank you for your message. I'll get back to you soon!",
@@ -128,6 +134,7 @@ const Contact = () => {
 
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
+      console.log(error)
       toast({
         title: "Error",
         description: "Failed to send message. Please try again.",

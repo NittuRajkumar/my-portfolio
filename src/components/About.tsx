@@ -111,7 +111,7 @@ const About = () => {
               <p className="text-muted-foreground leading-relaxed">
                 ✅ Now I’m seeking an entry‑level role where I can bring that
                 foundation to real‑world applications, grow professionally, 🧠
-                and contribute to impactful projects. ✨
+                and contribute to impactful projects.✨
               </p>
             </div>
           </div>

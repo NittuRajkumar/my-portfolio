@@ -10,7 +10,7 @@ const Hero = () => {
   const fullText = "Full-Stack Web Developer";
   useEffect(() => {
 
-    document.title = "Home - My App";
+    document.title = "Rajkumar Nittu - Portfolio";
 
   }, []);
   useEffect(() => {
@@ -34,20 +34,15 @@ const Hero = () => {
     }
   };
   const downloadResume = () => {
-    // In a real app, this would download an actual resume file
+  const link = document.createElement('a');
+  link.href = "https://github.com/NittuRajkumar/my-portfolio/blob/main/Rajkumar%20Nittu.Resume.pdf";
+  link.download = 'Rajkumar Nittu.Resume.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
-    const link = document.createElement('a');
-    link.href = 'file:///C:/Users/RAJKUMAR/OneDrive/Pictures/Desktop/My%20Cerificates/Rajkumar%20Nittu.Resume.pdf';
-    link.download = 'Resume.pdf';
-    link.click();
-    
-    //  toast ({
-    //   title: "Resume Download",
-    //   description: "Resume download started!",
-    // });
-    
-  };
-  return <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 z-0" style={{
       backgroundImage: `url(${heroBg})`,
@@ -108,13 +103,22 @@ const Hero = () => {
         </div>
       </div>
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
         <div className="animate-bounce">
           <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </div>
-      </div>
+      </div> */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
+    <div className="animate-bounce cursor-pointer" onClick={() => {
+      document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' });
+    }}>
+      <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </div>
+  </div>
     </section>;
 };
 export default Hero;

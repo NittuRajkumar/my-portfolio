@@ -9,7 +9,7 @@ const services = [
   {
     title: "Backend Development",
     description:
-      "Creating scalable and secure backends with Node.js, Express, and MongoDB.",
+      "Creating scalable and secure backends with Python, Node.js, Express, and MongoDB.",
   },
   {
     title: "Full Stack Web Apps",

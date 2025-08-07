@@ -30,6 +30,7 @@ const Footer = () => {
     href: "https://twitter.com",
     icon: "🐦"
   }];
+  
   const scrollToSection = (href: string) => {
     const sectionId = href.replace('#', '');
     const element = document.getElementById(sectionId);
@@ -39,7 +40,29 @@ const Footer = () => {
       });
     }
   };
-  return <footer className="bg-card/50 border-t border-glass-border">
+  return <footer id="footer" className=" relative bg-card/50 border-t border-glass-border">
+
+    <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20">
+        <div
+          className="animate-bounce cursor-pointer"
+          onClick={() => scrollToSection("#hero")}
+        >
+          <svg
+            className="w-6 h-6 text-primary"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M5 10l7-7m0 0l7 7m-7-7v18"
+            />
+          </svg>
+        </div>
+      </div>
+
       <div className="container mx-auto px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Brand */}
@@ -47,8 +70,7 @@ const Footer = () => {
             <div className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
               RAJKUMAR NITTU
             </div>
-            <p className="text-muted-foreground text-sm">Full-Stack Web 
-Developer, Building Web Applications </p>
+            <p className="text-muted-foreground text-sm">Full-Stack Web Developer, Building Web Applications </p>
           </div>
 
           {/* Quick Links */}
