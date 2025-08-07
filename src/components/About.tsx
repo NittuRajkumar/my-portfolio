@@ -81,11 +81,11 @@ const About = () => {
           >
             <div className="relative mx-auto lg:mx-20 w-80 h-80">
               <div className="absolute inset-0 bg-gradient-primary blur-lg opacity-30 pulse-glow"></div>
-              <div className="relative glass-card rounded-full p-3 overflow-hidden">
+              <div className="relative glass-card  p-3 overflow-hidden">
                 <img
                   src={profileImg}
                   alt="Profile"
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
