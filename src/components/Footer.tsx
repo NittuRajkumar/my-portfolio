@@ -96,7 +96,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center text-sm text-muted-foreground">
           <p>
-            © {currentYear} RAJKUMAR NITTU. All rights reserved. Built with ❤️ using React & JavaScript.
+            © {currentYear} RAJKUMAR NITTU. All rights reserved. Built with ❤️ using React  &  Html  Css  Js.
           </p>
         </div>
       </div>

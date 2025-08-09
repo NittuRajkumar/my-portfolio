@@ -39,7 +39,7 @@ const Index = () => {
 
   useEffect(() => {
     // Update document title and meta tags for SEO
-    document.title = "Alex Johnson - Full-Stack Developer Portfolio";
+    document.title = "Rajkumar Nittu - Portfolio";
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

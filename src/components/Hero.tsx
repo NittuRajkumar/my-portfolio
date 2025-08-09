@@ -127,9 +127,6 @@
 
 
 
-
-
-
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
