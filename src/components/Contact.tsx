@@ -332,13 +332,9 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <h3 
-  className="
-    text-xl font-bold mb-6 mr-3 text-primary text-center whitespace-nowrap
+          <h3  className="text-lg md:text-xl font-bold mb-6 text-primary text-center whitespace-nowrap
     transition-all duration-500 ease-in-out
-    hover:text-pink-400 hover:scale-105 hover:drop-shadow-lg
-    animate-fadeIn
-  "
+    hover:text-pink-400 hover:scale-105 hover:drop-shadow-lg animate-fadeIn"
 >
   I’m always excited to collaborate on new ideas and turn visions into reality. 🧠 Identifying challenges & opportunities. 💡
 </h3>
