@@ -243,6 +243,25 @@ const Contact = () => {
                 </Button>
               </form>
             </div>
+            <div className="glass-card p-8 m-8 rounded-2xl">
+              <h3 className="text-xl font-bold mb-6 text-primary">
+                Collaborate closely with my Personals.
+              </h3>
+              <div className="space-y-4 text-muted-foreground">
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">📧</span>
+                  <span>Email : nitturajkumar123@gmail.com</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">📞</span>
+                  <span>Contact me : 6305715141</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-primary">💬</span>
+                  <span>Looking For opportunities.!!!</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Contact Info & Resume */}
@@ -254,7 +273,7 @@ const Contact = () => {
                 Download My Resume
               </h3>
               <p className="text-muted-foreground mb-6">
-                Get a detailed overview of my experience, skills, and achievements.
+                Get a detailed overview of my Projects, skills, and achievements.
               </p>
               <Button
                 onClick={downloadResume}
@@ -304,15 +323,26 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-primary">⏰</span>
-                  <span>Usually gives time 24 hours..</span>
+                  <span>Timeline and deliverables overview.</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-primary">💬</span>
-                  <span>Looking For opportunities.!!!</span>
+                  <span>Understanding the client’s goals & vision!!</span>
                 </div>
               </div>
             </div>
           </div>
+          <h3 
+  className="
+    text-xl font-bold mb-6 mr-3 text-primary text-center whitespace-nowrap
+    transition-all duration-500 ease-in-out
+    hover:text-pink-400 hover:scale-105 hover:drop-shadow-lg
+    animate-fadeIn
+  "
+>
+  I’m always excited to collaborate on new ideas and turn visions into reality. 🧠 Identifying challenges & opportunities. 💡
+</h3>
+
         </div>
       </div>
     </section>
