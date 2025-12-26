@@ -133,7 +133,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Full-Stack Web Developer";
+  const fullText = "MERN Full-Stack Developer";
 
   // Set the tab title
   useEffect(() => {
@@ -164,8 +164,8 @@ const Hero = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href =
-      "https://github.com/NittuRajkumar/my-portfolio/blob/main/Rajkumar%20Nittu.Resume.pdf";
-    link.download = "Rajkumar Nittu.Resume.pdf";
+      "RAJKUMAR Resume (1).pdf";
+    link.download = "RAJKUMAR Resume (1).pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

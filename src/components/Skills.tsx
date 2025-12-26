@@ -11,12 +11,16 @@ const Skills = () => {
     { name: "React", level: 70, category: "Frontend", icon: "⚛️" },
 
      { name: "Python", level: 90, category: "Backend", icon: "🐍" },
-    { name: "Node.js", level: 80, category: "Backend", icon: "💚" },
-    { name: "GIT Command Line", level: 70, category: "Backend", icon: "🔧" },
+    { name: "Node JS", level: 80, category: "Backend", icon: "💚" },
+    {name: "Express JS", level: 80, category: "Backend", icon: "🔧"},
+    { name: "API'S", level: 75, category: "Backend", icon: "🔗" },
+     
+    
 
     
     { name: "SQL", level: 75, category: "Database", icon: "🛢️" },
     { name: "Mongo DB", level: 85, category: "Database", icon: "🍃" },
+    {name: "Git hub", level: 80, category: "Database", icon: "🐙"},
     
   ];
 

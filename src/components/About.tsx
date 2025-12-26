@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import profileImg from "@/assets/profile.jpg";
+import myprofile from "@/assets/myprofile.jpg";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -79,11 +79,11 @@ const About = () => {
             className={`reveal ${isVisible ? "revealed" : ""}`}
             style={{ transitionDelay: "0.2s" }}
           >
-            <div className="relative mx-auto lg:mx-20 w-80 h-80">
+            <div className="relative mx-auto lg:mx-20 w-80 h-70">
               <div className="absolute inset-0 bg-gradient-primary blur-lg opacity-30 pulse-glow"></div>
-              <div className="relative glass-card  p-3 overflow-hidden">
+              <div className="relative glass-card  p-2 overflow-hidden">
                 <img
-                  src={profileImg}
+                  src={myprofile}
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -96,9 +96,9 @@ const About = () => {
             className={`reveal ${isVisible ? "revealed" : ""}`}
             style={{ transitionDelay: "0.4s" }}
           >
-            <div className="glass-card p-6 rounded-2xl">
+            <div className="glass-card p-8 pl-8 rounded-2xl">
               <h3 className="text-2xl font-bold mb-6 text-primary">
-            Passionate Web Developer✨ & Building Websites🧠
+          Passionate MERN Developer✨Building Websites🧠
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 ➤ I’m a self-taught full‑stack web developer with hands-on

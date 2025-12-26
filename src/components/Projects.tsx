@@ -13,16 +13,16 @@ const Projects = () => {
     image: project1,
     technologies: ["HTML", "CSS", "REACT JS", "JAVA SCRIPT"],
     liveDemo: "https://rajkumargames.ccbp.tech/",
-    sourceCode: "https://github.com/example/ecommerce",
+    sourceCode: "https://github.com/NittuRajkumar/Collection-of-mini-games",
     featured: true
   }, {
     id: 2,
     title: " Delicious Food Munch",
     description: "A Delicious food has the power to bring joy and comfort with every bite. The rich aroma, vibrant colors, and perfectly balanced flavors awaken the senses and create unforgettable experiences.Tasty with a beautiful delicious Food with ur familiesand Friends  From savory dishes bursting with spices  Fresh ingredients and skillful cooking elevate ordinary meals into culinary masterpieces. Sharing delicious food with loved ones makes every moment even more special....!!!!",
     image: project2,
-    technologies: ["HTML", "CSS", "BOOTSTRAP","JAVA SCRIPT"],
+    technologies: ["HTML", "CSS","JAVA SCRIPT"],
     liveDemo: "https://nrajkumarfm.ccbp.tech/",
-    sourceCode: "https://github.com/example/taskmanager",
+    sourceCode: "https://github.com/example/ecommerce",
     featured: false
   }, {
     id: 3,
@@ -31,7 +31,7 @@ const Projects = () => {
     image: project3,
     technologies: ["REACT JS", "PYTHON", "API", "SQL", "HTML","CSS"],
     liveDemo: "https://nxttrendzmarket.ccbp.tech/login",
-    sourceCode: "https://github.com/example/analytics",
+    sourceCode: "https://github.com/NittuRajkumar/Nxt-Trendz---Specific-Product-Details",
     featured: true
   // }, {
   //   id: 4,

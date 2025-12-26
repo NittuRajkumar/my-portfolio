@@ -146,10 +146,17 @@ const Contact = () => {
   };
 
   const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href =
+      "RAJKUMAR Resume (1).pdf";
+    link.download = "RAJKUMAR Resume (1).pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
     // In a real app, this would download an actual resume file
     toast({
-      title: "Resume Download",
-      description: "Resume download started!",
+      title: "Resume Downloaded...",
+      
     });
   };
 
@@ -245,7 +252,7 @@ const Contact = () => {
             </div>
             <div className="glass-card p-8 m-8 rounded-2xl">
               <h3 className="text-xl font-bold mb-6 text-primary">
-                Collaborate closely with my Personals.
+                Collaborate closely with my Personals📱
               </h3>
               <div className="space-y-4 text-muted-foreground">
                 <div className="flex items-center gap-3">
@@ -257,7 +264,7 @@ const Contact = () => {
                   <span>Contact me : 6305715141</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-primary">💬</span>
+                  <span className="text-primary">🏆</span>
                   <span>Looking For opportunities.!!!</span>
                 </div>
               </div>
@@ -277,17 +284,18 @@ const Contact = () => {
               </p>
               <Button
                 onClick={downloadResume}
-                size="lg"
-                className="bg-gradient-accent hover:shadow-glow-accent transition-all duration-300"
+                size="lg" 
+                
+                className="bg-gradient-accent hover:shadow-glow-accent transition-all duration-300  C:\Users\RAJKUMAR\OneDrive\Pictures\Desktop\my-portfolio\RAJKUMAR Resume (1).pdf"
               >
-                Download Resume (PDF)
+                Download Resume (PDF)  
               </Button>
             </div>
 
             {/* Social Links */}
             <div className="glass-card p-8 rounded-2xl">
               <h3 className="text-xl font-bold mb-6 text-center text-primary">
-                Connect With Me
+                Connect With Me 👇
               </h3>
               
               <div className="grid grid-cols-2 gap-4">

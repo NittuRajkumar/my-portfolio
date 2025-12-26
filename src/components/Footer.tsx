@@ -70,7 +70,7 @@ const Footer = () => {
             <div className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
               RAJKUMAR NITTU
             </div>
-            <p className="text-muted-foreground text-sm">Full-Stack Web Developer, Building Web Applications </p>
+            <p className="text-muted-foreground text-sm">MERN Full-Stack Developer, Building Web Applications </p>
           </div>
 
           {/* Quick Links */}
