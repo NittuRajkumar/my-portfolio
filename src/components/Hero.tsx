@@ -133,7 +133,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Full-Stack Web Developer";
+  const fullText = "MERN Full-Stack Developer";
 
   // Set the tab title
   useEffect(() => {
