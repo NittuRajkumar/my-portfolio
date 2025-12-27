@@ -148,8 +148,8 @@ const Contact = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href =
-      "RAJKUMAR Resume (1).pdf";
-    link.download = "RAJKUMAR Resume (1).pdf";
+      "https://drive.google.com/file/d/1OqjIGyerufO3son0DnVZr3uzRj7DR-wp/view?usp=sharing";
+  
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
