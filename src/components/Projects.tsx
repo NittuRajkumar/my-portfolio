@@ -11,25 +11,25 @@ const Projects = () => {
     title: "Collection Of Mini Games",
     description: "A Enjoy four interactive game cards: There are as like a Emoji Game, Memory Matrix, Rock Paper Scissors, and Card-Flip Memory Game.... Its a offline games for everyone to its will be knowing the upgrading up skill on mini games Built with a  HTML, CSS, React.js, and  doing JavaScript for a modern, responsive design Mini-games are lightweight and  playing with an ideal for improving focus, reflexes, and problem-solving skills and  while having fun and enteretainment..All the best...!!!! ",
     image: project1,
-    technologies: ["HTML", "CSS", "REACT JS", "JAVA SCRIPT"],
+    technologies: ["FRONTEND","HTML", "CSS", "REACT JS", "JAVA SCRIPT"],
     liveDemo: "https://rajkumargames.ccbp.tech/",
     sourceCode: "https://github.com/NittuRajkumar/Collection-of-mini-games",
     featured: true
   }, {
     id: 2,
-    title: " Delicious Food Munch",
-    description: "A Delicious food has the power to bring joy and comfort with every bite. The rich aroma, vibrant colors, and perfectly balanced flavors awaken the senses and create unforgettable experiences.Tasty with a beautiful delicious Food with ur familiesand Friends  From savory dishes bursting with spices  Fresh ingredients and skillful cooking elevate ordinary meals into culinary masterpieces. Sharing delicious food with loved ones makes every moment even more special....!!!!",
+    title: "Login and Registration",
+    description: "This project is a Login and Registration Authentication System built using the MERN stack (MongoDB, Express.js, React.js, Node.js).The frontend is developed with React and deployed on Vercel for fast and scalable performance.The backend REST API is built with Node.js and Express, deployed on Render, and connected to MongoDB for data storage. The complete source code is version-controlled and shared via GitHub, enabling collaboration and easy deployment.",
     image: project2,
-    technologies: ["HTML", "CSS","JAVA SCRIPT"],
-    liveDemo: "https://nrajkumarfm.ccbp.tech/",
-    sourceCode: "https://github.com/example/ecommerce",
+    technologies: ["REACT JS", "MONGO DB", "REST API'S", "NODE JS","EXPRESS JS"],
+    liveDemo: "https://login-and-register-omega.vercel.app/",
+    sourceCode: "https://github.com/NittuRajkumar/Login-And-Register-Frontend",
     featured: false
   }, {
     id: 3,
     title: "Nxt Trendz Online Shoping",
     description: "A Nxttrendz is a modern online shopping platform offering a wide range of fashion, electronics, and lifestyle products. 🛍️ It provides users with a seamless shopping experience, featuring easy navigation and quick checkout.exclusive deals and trendy collections, Nxttrendz keeps shoppers updated with the latest styles. enhancing customer satisfaction.Shop anytime, anywhere with Nxttrendz and enjoy with a  free online retail experience.....!! Username: rahul,  Password: rahul@2021",
     image: project3,
-    technologies: ["REACT JS", "PYTHON", "API", "SQL", "HTML","CSS"],
+    technologies: ["FRONTEND","REACT JS", "PYTHON", "API", "SQL", "HTML","CSS"],
     liveDemo: "https://nxttrendzmarket.ccbp.tech/login",
     sourceCode: "https://github.com/NittuRajkumar/Nxt-Trendz---Specific-Product-Details",
     featured: true

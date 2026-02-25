@@ -164,8 +164,8 @@ const Hero = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1OqjIGyerufO3son0DnVZr3uzRj7DR-wp/view?usp=sharing";
-    link.download = "RAJKUMAR Resume (1).pdf";
+      "https://drive.google.com/file/d/1bnURYupDVNmFliZdtR0kfuzvoaVW3cOt/view?usp=sharing";
+    link.download = "MYRESUME.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

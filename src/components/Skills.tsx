@@ -8,7 +8,7 @@ const Skills = () => {
     { name: "Html", level: 95, category: "Frontend", icon: "📄" },
     { name: "Css", level: 90, category: "Frontend", icon: "🎨" },
     { name: "Javascript", level: 65, category: "Frontend", icon: "🟨" },
-    { name: "React", level: 70, category: "Frontend", icon: "⚛️" },
+    { name: "React JS", level: 70, category: "Frontend", icon: "⚛️" },
 
      { name: "Python", level: 90, category: "Backend", icon: "🐍" },
     { name: "Node JS", level: 80, category: "Backend", icon: "💚" },
@@ -20,7 +20,9 @@ const Skills = () => {
     
     { name: "SQL", level: 75, category: "Database", icon: "🛢️" },
     { name: "Mongo DB", level: 85, category: "Database", icon: "🍃" },
-    {name: "Git hub", level: 80, category: "Database", icon: "🐙"},
+    {name: "Git Hub", level: 80, category: "Database", icon: "🐙"},
+    {name: "Post Man", level: 60, category: "Database", icon: "🚀"},
+    
     
   ];
 
