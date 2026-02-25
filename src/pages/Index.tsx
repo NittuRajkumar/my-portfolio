@@ -66,7 +66,6 @@ const Index = () => {
         <Skills />
         <Projects />
         <Services />
-        
         <Contact />
       </main>
       <Footer />
