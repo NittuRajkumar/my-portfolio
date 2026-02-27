@@ -148,7 +148,7 @@ const Contact = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1VWAJV6E4YpKXC_mVyU_VAxOGPKB3XuPY/view?usp=sharing";
+      "https://drive.google.com/file/d/1YLifbggm9vWheCIVKqnoxt_ezbJunUOg/view?usp=drive_link";
   
     document.body.appendChild(link);
     link.click();

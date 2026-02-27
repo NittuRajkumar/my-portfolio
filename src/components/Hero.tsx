@@ -164,7 +164,7 @@ const Hero = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1VWAJV6E4YpKXC_mVyU_VAxOGPKB3XuPY/view?usp=sharing";
+      "https://drive.google.com/file/d/1YLifbggm9vWheCIVKqnoxt_ezbJunUOg/view?usp=drive_link";
     link.download = "MY RESUME.pdf";
     document.body.appendChild(link);
     link.click();
